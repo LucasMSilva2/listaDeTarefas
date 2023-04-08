@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #202124;
+    --primary-color-dark: rgb(9, 79, 100);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.container {
+    align-items: center;
+    max-width: 600px;
+    margin: 10px auto;
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+h1{
+    font-weight: 700;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.input-tarefa{
+    width: 430px;
+    height: 40px;
+    border: 2px solid var(--primary-color);
+    
+    background-color: #fff;
+    box-shadow: 4px 4px 0px var(--primary-color);
+    font-family: inherit;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-tarefa{
+    display: block;
+    margin: 10px auto;
+    width: 430px;
+    height: 35px;
+    border-radius: 0;
+    border: none;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: white;
+    cursor: pointer;
+
+    background-color: var(--primary-color); 
+    
+    transition: background-color 200ms ease-in-out;
+
+}
+
+.btn-tarefa:hover{
+    background-color: #46484D;
+}
+
+ul{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+li{
+    font-weight: 500;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+#Editar {
+    cursor: pointer;
+}
+#Editar:hover{
+    opacity: 0.5;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8em;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    padding-left: 3px;
+}
+
+.Apagar{
+    transform: scale(1.2);
+    cursor: pointer;
+}
